@@ -53,7 +53,11 @@ During this walkthrough I will be using the region of "eu-west-2", choose your r
 ![image](https://user-images.githubusercontent.com/90014630/152597533-172fef43-26a3-4875-8695-470e19dc81d2.png)
 
 9. Now, you will see the "/ - ANY - Setup" page on the right.
-10. Tick the option "Use Lambda Proxy integration" and Select "Save".
+
+![image](https://user-images.githubusercontent.com/90014630/152598736-12837e3c-246d-4ca2-b671-d4080eee11ea.png)
+
+
+11. Tick the option "Use Lambda Proxy integration" and Select "Save".
 
 ![image](https://user-images.githubusercontent.com/90014630/152597996-6d4b2d96-bd1c-45a4-bbb5-22ceadc873aa.png)
 
@@ -85,6 +89,9 @@ Run this command:
 You should get back a response similar to this:
 
 //$ {"ok":true,"result":true,"description":"Webhook was set"}
+
+![image](https://user-images.githubusercontent.com/90014630/152598941-72838ee2-9491-4170-be0e-559582632746.png)
+
 
 ### Testing
 1. Using the link FatherBot provided you can test the bot, this this current script it should reverse the input.
