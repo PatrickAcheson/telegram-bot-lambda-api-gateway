@@ -42,22 +42,22 @@ During this walkthrough I will be using the region of "eu-west-2", choose your r
 ![image](https://user-images.githubusercontent.com/90014630/152597272-8bd82b90-86b4-42d3-87a5-3d7bb3637604.png)
 
 
-3. We will be using "REST API" and click "build". Inside Settings input the API name.
+2. We will be using "REST API" and click "build". Inside Settings input the API name.
 
 ![image](https://user-images.githubusercontent.com/90014630/152597373-68eeebb5-650b-40d7-83f3-92d4b4914853.png)
 
 
-5. You will be redirected to the "Resources" page.
-7. Click "Actions" and "Create Method" on the dropdown menu on the left, choose "ANY" and click on the "tick" icon.
+3. You will be redirected to the "Resources" page.
+4. Click "Actions" and "Create Method" on the dropdown menu on the left, choose "ANY" and click on the "tick" icon.
 
 ![image](https://user-images.githubusercontent.com/90014630/152597533-172fef43-26a3-4875-8695-470e19dc81d2.png)
 
-9. Now, you will see the "/ - ANY - Setup" page on the right.
+5. Now, you will see the "/ - ANY - Setup" page on the right.
 
 ![image](https://user-images.githubusercontent.com/90014630/152598736-12837e3c-246d-4ca2-b671-d4080eee11ea.png)
 
 
-11. Tick the option "Use Lambda Proxy integration" and Select "Save".
+6. Tick the option "Use Lambda Proxy integration" and choose your lambda fuction you made ealier after this select "Save".
 
 ![image](https://user-images.githubusercontent.com/90014630/152597996-6d4b2d96-bd1c-45a4-bbb5-22ceadc873aa.png)
 
@@ -68,25 +68,25 @@ During this walkthrough I will be using the region of "eu-west-2", choose your r
 ![image](https://user-images.githubusercontent.com/90014630/152598453-a8f9f6e2-8a8a-4441-bdb3-39b5f730a454.png)
 
 
-3. In "Fuction overview" and the "code" tab, paste the python code from below.
-4. Change the code accordinly.
+2. In "Fuction overview" and the "code" tab, paste the python code from below.
+3. Change the code accordinly.
 
 ![image](https://user-images.githubusercontent.com/90014630/152598348-ea7467e0-28f9-4ff2-a13c-17b2f6652b22.png)
 
 
-5. Select "Deploy"
+4. Select "Deploy"
 
 ![image](https://user-images.githubusercontent.com/90014630/152598379-db353abe-4756-4e3b-8941-5e7b652bf7f5.png)
 
 
 ### Set Telegram Webhook
-Replace <ACCESS_TOKEN> with your Telegram HTTP API access token obtained in the first step.
-Replace <INVOKE_URL> with your Invoke URL obtained in the previous step.
-Run this command:
+1. Replace <ACCESS_TOKEN> with your Telegram HTTP API access token obtained in the first step.
+2. Replace <INVOKE_URL> with your Invoke URL obtained in the previous step.
+3. Run this command:
 
 //$ curl --data "url=<INVOKE_URL>" "https://api.telegram.org/bot<ACCESS_TOKEN>/setWebhook"
 
-You should get back a response similar to this:
+4. You should get back a response similar to this:
 
 //$ {"ok":true,"result":true,"description":"Webhook was set"}
 
