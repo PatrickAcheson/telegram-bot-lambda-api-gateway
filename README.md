@@ -1,5 +1,5 @@
 # telegram-bot-lambda-api-gateway
-Detailed walkthrough of the creations of a Telegram Bot using AWS services such as Lambda and API Gateway. 
+Detailed walkthrough going through the steps of creating a Telegram Bot using AWS services such as Lambda and API Gateway. 
 
 During this walkthrough I will be using the region of "eu-west-2", choose your region accordinly.
 ### Telegram
